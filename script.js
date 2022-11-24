@@ -1,7 +1,4 @@
-
-
 const modal = document.querySelector('.modal-container')
-
 const tbody = document.querySelector('tbody')
 const sNome = document.querySelector('#m-nome')
 const sFuncao = document.querySelector('#m-funcao')
@@ -74,7 +71,7 @@ btnSalvar.onclick = e => {
     itens[id].funcao = sFuncao.value
     itens[id].salario = sSalario.value
   } else {
-    itens.push({'nome': sNome.value, 'funcao': sFuncao.value, 'salario': sSalario.value})
+    itens.push({'Gasto Com O Que': sNome.value, 'data': sFuncao.value, 'valor': sSalario.value})
   }
 
   setItensBD()
