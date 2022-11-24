@@ -71,7 +71,7 @@ btnSalvar.onclick = e => {
     itens[id].funcao = sFuncao.value
     itens[id].salario = sSalario.value
   } else {
-    itens.push({'Gasto Com O Que': sNome.value, 'data': sFuncao.value, 'valor': sSalario.value})
+    itens.push({'nome': sNome.value, 'funcao': sFuncao.value, 'salario': sSalario.value})
   }
 
   setItensBD()

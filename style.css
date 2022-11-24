@@ -171,7 +171,7 @@ tbody tr td.acao {
   padding: 40px;
   background-color: white;
   border-radius: 10px;
-  width: 50%;
+  width: 400px;
 }
 
 .modal label {
@@ -198,8 +198,10 @@ tbody tr td.acao {
   padding: 5px 10px; 
   width: 100%;
   border: none;
-  background-color: rgb(57, 57, 226);
-  color: white;
+  font-weight: 700;
+  font-size: x-large;
+  background-color: rgb(69, 73, 73);
+  color: rgb(255, 255, 255);
 }
 
 .active {
